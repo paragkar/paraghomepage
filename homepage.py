@@ -31,3 +31,5 @@ with st.container():
 					Also, each of these are specific for a band, selectable through a drop down menu, and can also be filtered down \
 					to the level of specific or a group of operators.")
 		st.write("---")
+	with right_column:
+		st.write("pppppppp")
