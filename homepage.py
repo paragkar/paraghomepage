@@ -18,7 +18,7 @@ def load_lottieurl(url):
 #-----------Load Assets-------------------------
 
 lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_cuKhxGQKFB.json")
-parag_photo = Image.open("images/parag_kar.jpg")
+parag_photo = Image.open("parag_kar.jpg")
 
 #-----------Header Section----------------------
 
