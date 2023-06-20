@@ -21,13 +21,17 @@ lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_cu
 
 with st.container():
 
-	st.title("An Integrated Application For The Telecom Industry")
-	st.subheader("Hi, I am Parag Kar :🙏:")
-	st.write("I wrote this app to tell the story about the telecom industry through :blue[Visulization] of Data")
-	st.write("The Idea is to make these :blue[Visulizations] Simple and Uniform Across the whole App")
-	st.write("The app is structured in four dimensions - 1) :green[Spectrum Bands]; 2) :red[Auction Years]; 3) :violet[Business Data]; 4) :orange[Auction Data]")
-	st.write("Each of these dimensions has features, subfeatures and options, which enables the users to dig deeper into the finner details of the story")
-	st.write("[Link to the App>](https://paragkar-spectrummaps.streamlit.app/)")
+	left_column, right_column = st.columns(2)
+
+	with left_column:
+
+		st.title("An Integrated Application For The Telecom Industry")
+		st.subheader("Hi, I am Parag Kar :🙏:")
+		st.write("I wrote this app to tell the story about the telecom industry through :blue[Visulization] of Data")
+		st.write("The Idea is to make these :blue[Visulizations] Simple and Uniform Across the whole App")
+		st.write("The app is structured in four dimensions - 1) :green[Spectrum Bands]; 2) :red[Auction Years]; 3) :violet[Business Data]; 4) :orange[Auction Data]")
+		st.write("Each of these dimensions has features, subfeatures and options, which enables the users to dig deeper into the finner details of the story")
+		st.write("[Link to the App>](https://paragkar-spectrummaps.streamlit.app/)")
 
 #----What the app does ------
 
