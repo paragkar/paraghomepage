@@ -39,5 +39,6 @@ with st.container():
 		st.write("Both these SubFeatures can be furthred filtered by the Bands or by the Calender Years.")
 		st.write("---")
 		st.write("The Dimension :violet['Business Data'] as of date has '7' Features - These relate to various dimensions of the telecom business.\
-			I will keep expanding these features further on an ongoing basis as and when possible.")
+			Such as 5GBTS Trends, Susbcribers Trends, Revenue Trends etc. I will keep expanding these features further on an ongoing basis \
+			as and when possible.")
 
