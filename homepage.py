@@ -74,6 +74,6 @@ with st.container():
 			not only exploring the intricacies of the telecom industry, but learning from our past experiences.")
 		st.write("I plan to load this app on the home page of my site here -> (https://paragkar.com/)")
 	with right_column:
-		st_lottie(lottie_coding, height =600, key='telecomdata')
+		st_lottie(lottie_coding, height =800, key='telecomdata')
 
 
