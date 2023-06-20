@@ -31,5 +31,6 @@ with st.container():
 					Also, each of these are specific for a band, selectable through a drop down menu, and can also be filtered down \
 					to the level of specific or a group of operators.")
 		st.write("---")
-		st.write("The Dim :red['Auction Years'] has '2' Features - 1)Band Metric; 2)Operator Metric;")
+		st.write("The Dim :red['Auction Years'] has '2' Features - 1)Band Metric; 2)Operator Metric")
+		st.write("The Feature 'Band Metric' has '7' SubFeatures, each provides as snapshot of all spectrum bands for the selected CY")
 
