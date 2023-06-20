@@ -1,3 +1,5 @@
+from PIL import Image
+
 import streamlit as st
 
 import requests
@@ -16,6 +18,7 @@ def load_lottieurl(url):
 #-----------Load Assets-------------------------
 
 lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_cuKhxGQKFB.json")
+parag_photo = Image.open("images/parag_kar.jpg")
 
 #-----------Header Section----------------------
 
@@ -32,6 +35,8 @@ with st.container():
 		st.write("The app is structured in four dimensions - 1) :green[Spectrum Bands]; 2) :red[Auction Years]; 3) :violet[Business Data]; 4) :orange[Auction Data]")
 		st.write("Each of these dimensions has features, subfeatures and options, which enables the users to dig deeper into the finner details of the story")
 		st.write("[Link to the App>](https://paragkar-spectrummaps.streamlit.app/)")
+	with image_column:
+		st.image(parag_photo)
 
 #----What the app does ------
 
