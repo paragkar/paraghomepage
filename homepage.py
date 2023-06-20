@@ -32,5 +32,6 @@ with st.container():
 					to the level of specific or a group of operators.")
 		st.write("---")
 		st.write("The Dim :red['Auction Years'] has '2' Features - 1)Band Metric; 2)Operator Metric")
-		st.write("The Feature 'Band Metric' has '7' SubFeatures, each provides as snapshot of all spectrum bands for the selected CY.")
+		st.write("The Feature 'Band Metric' has '7' SubFeatures, each provides an integrated snapshot of all spectrum bands for the selected CY\
+			      for the selected SubFeature- for eg. 'Reserve Price', 'Auction Price' etc.")
 
