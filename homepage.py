@@ -2,6 +2,18 @@ import streamlit as st
 
 st.set_page_config(page_title = "Telecom Homepage", page_icon=":📡:", layout ='wide')
 
+#-----------Supported Colors--------------------
+
+"### Supported colors"
+
+"""
+- :blue[blue]
+- :green[green]
+- :red[red]
+- :violet[violet]
+- :orange[orange]
+"""
+
 #-----------Header Section----------------------
 
 with st.container():
@@ -9,9 +21,10 @@ with st.container():
 	st.title("An Integrated Application For The Telecom Industry")
 	st.subheader("Hi, I am Parag Kar :🙏:")
 	st.write("I wrote this app to tell the story about the telecom industry through Data Visulization")
-	st.write("The app is structured in four dimensions - 1) Spectrum Bands[blue]; 2) Auction Years; 3) Business Data; 4) Auction Data")
-	st.write("Each of these dimensions has features, subfeatures and options, which enables the users to dig deeper into the finner details of the story")
-	st.write("[Link to the App>](https://paragkar-spectrummaps.streamlit.app/)")
+	with st.echo():
+		st.write("The app is structured in four dimensions - 1) Spectrum Bands[blue]; 2) Auction Years; 3) Business Data; 4) Auction Data")
+		st.write("Each of these dimensions has features, subfeatures and options, which enables the users to dig deeper into the finner details of the story")
+		st.write("[Link to the App>](https://paragkar-spectrummaps.streamlit.app/)")
 
 #----What the app does ------
 
