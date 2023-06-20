@@ -36,4 +36,5 @@ with st.container():
 		st.write("The Feature :blue['Band Metric'] has '7' SubFeatures, each provides an integrated snapshot of all spectrum bands for the selected CY\
 			      for the selected SubFeature- for eg. 'Reserve Price', 'Auction Price' etc.")
 		st.write("The Feature :blue['Operator Metric'], has '2' SubFeatures - 1)Total Outflow; 2)Total Purchase")
+		st.write("Both these SubFeatures can be filtered by Bands or by Calender Year")
 
