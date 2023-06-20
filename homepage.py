@@ -21,7 +21,7 @@ lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_cu
 
 with st.container():
 
-	title_column, image_column = st.columns(2,1)
+	title_column, image_column = st.columns((2,1))
 
 	with title_column:
 
