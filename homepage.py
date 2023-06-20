@@ -42,7 +42,7 @@ with st.container():
 
 with st.container():
 	st.write("---")
-	left_column, right_column = st.columns((4,1))
+	left_column, right_column = st.columns((2,1))
 	with left_column:
 		st.header("How is this app structured")
 		st.write("The Dimension :green['Spectrum Bands'] has '3' Features - 1) Spectrum Map; 2) Expiry Map; 3) Auction Map")
