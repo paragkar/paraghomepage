@@ -8,3 +8,5 @@ msoffcrypto-tool
 streamlit_authenticator
 xlrd
 deta
+streamlit_lottie
+requests
