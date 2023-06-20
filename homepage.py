@@ -41,4 +41,7 @@ with st.container():
 		st.write("The Dimension :violet['Business Data'] as of date has '7' Features - These relate to various dimensions of the telecom business.\
 			Such as 5GBTS Trends, Susbcribers Trends, Revenue Trends etc. I will keep expanding these features further on an ongoing basis \
 			as and when possible.")
+		st.write("Finally, the dimension :orange['Auction Data'] is the aggregration of the simulation of all spectrum auctions that\
+			has taken place in the past since 2010. This has extensive features for enabling the user to view the auction from all angles\
+			and conclude who has bid where and why and what were the implications on the other bidders")
 
