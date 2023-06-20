@@ -21,7 +21,7 @@ with st.container():
 	left_column, right_column = st.columns(2)
 	with left_column:
 		st.header("How is this app structured")
-		st.write("The Dim :green['Spectrum Bands'] has '3' Features - 1)Spectrum Map; 2)Expiry Map; 3)Auction Map")
+		st.write("The Dimension :green['Spectrum Bands'] has '3' Features - 1)Spectrum Map; 2)Expiry Map; 3)Auction Map")
 		st.write("The Feature :blue['Spectrum Map'] has '3' SubFeatures - 1)Freq Layout; 2)Operator Holdings; 3) Operator %Share.\
 					Each of these are specific for a band, selectable through a drop down menu, and can also be filtered down \
 					to the level of specific or a group of operators.")
@@ -32,10 +32,11 @@ with st.container():
 					Also, each of these are specific for a band, selectable through a drop down menu, and can also be filtered down \
 					to the level of specific or a group of operators.")
 		st.write("---")
-		st.write("The Dim :red['Auction Years'] has '2' Features - 1)Band Metric; 2)Operator Metric")
+		st.write("The Dimension :red['Auction Years'] has '2' Features - 1)Band Metric; 2)Operator Metric")
 		st.write("The Feature :blue['Band Metric'] has '7' SubFeatures, each provides an integrated snapshot of all spectrum bands for the selected CY\
 			      for the selected SubFeature- for eg. 'Reserve Price', 'Auction Price' etc.")
 		st.write("The Feature :blue['Operator Metric'], has '2' SubFeatures - 1)Total Outflow; 2)Total Purchase")
 		st.write("Both these SubFeatures can be furthred filtered by the Bands or by the Calender Years.")
 		st.write("---")
+		st.write("The Dimension")
 
