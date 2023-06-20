@@ -2,18 +2,6 @@ import streamlit as st
 
 st.set_page_config(page_title = "Telecom Homepage", page_icon=":📡:", layout ='wide')
 
-#-----------Supported Colors--------------------
-
-"### Supported colors"
-
-"""
-- :blue[blue]
-- :green[green]
-- :red[red]
-- :violet[violet]
-- :orange[orange]
-"""
-
 #-----------Header Section----------------------
 
 with st.container():
