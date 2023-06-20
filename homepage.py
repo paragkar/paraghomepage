@@ -4,7 +4,7 @@ st.set_page_config(page_title = "Telecom Homepage", page_icon=":📡:", layout =
 
 #-----------Header Section----------------------
 
-with st.container()
+with st.container():
 
 	st.title("An Integrated Application For The Telecom Industry")
 	st.subheader("Hi, I am Parag Kar :🙏:")
