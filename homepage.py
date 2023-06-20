@@ -35,4 +35,5 @@ with st.container():
 		st.write("The Dim :red['Auction Years'] has '2' Features - 1)Band Metric; 2)Operator Metric")
 		st.write("The Feature :blue['Band Metric'] has '7' SubFeatures, each provides an integrated snapshot of all spectrum bands for the selected CY\
 			      for the selected SubFeature- for eg. 'Reserve Price', 'Auction Price' etc.")
+		st.write("The Feature :blue['Operator Metric'], has '2' SubFeatures - 1)Total Outflow; 2)Total Purchase")
 
