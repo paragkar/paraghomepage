@@ -83,5 +83,20 @@ with st.container():
 	st.header("Please Provide Your Valuable Feedback")
 	st.write("##")
 
+	contact_form = """
+	<form action="https://formsubmit.co/pkar@outlook.com" method="POST">
+	<input type = "hidder" name ="_captcha" value ="false">
+     <input type="text" name="name" placeholder = "Your name" required>
+     <input type="email" name="email" placeholder = "Your email" required>
+     <textarea name = "message" placeholder = "Yoour message here">
+     <button type="submit">Send</button>
+	</form>"""
+
+	left_column, right_column = st.columns(2)
+	with left_column:
+		st.markdown(contact_form, unsafe_allow_html = True)
+	with right_column:
+		st.empty()
+
 
 
