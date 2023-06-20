@@ -23,5 +23,5 @@ with st.container():
 		st.write("##")
 		st.write(
 			"""
-			The Dimension "Spectrum Bands" has three Features
+			The Dimension "Spectrum Bands" has three Features - 1)Spectrum Map; 2) Expiry Map; 3) Auction Map
 			""")
