@@ -6,9 +6,16 @@ from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title = "Telecom Homepage", page_icon=":📡:", layout ='wide')
 
+def load_lottieurl(url):
+	r = requests.get(url)
+	if r.status_code !=200:
+		return None
+	return r.json()
+
+
 #-----------Load Assets-------------------------
 
-lottie_coding = "https://assets8.lottiefiles.com/packages/lf20_cuKhxGQKFB.json"
+lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_cuKhxGQKFB.json")
 
 #-----------Header Section----------------------
 
