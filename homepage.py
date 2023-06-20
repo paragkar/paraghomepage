@@ -78,5 +78,9 @@ with st.container():
 		st_lottie(lottie_ani1, key='telecomdata1')
 		st_lottie(lottie_ani2, key='telecomdata2')
 
+with st.container():
+	st.write("---")
+	st.header("Please Provide Your Valuable Feedback")
+
 
 
