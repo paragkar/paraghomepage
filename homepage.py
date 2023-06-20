@@ -1,6 +1,14 @@
 import streamlit as st
 
+import requests
+
+from streamlit_lottie import st_lottie
+
 st.set_page_config(page_title = "Telecom Homepage", page_icon=":📡:", layout ='wide')
+
+#-----------Load Assets-------------------------
+
+lottie_coding = "https://assets8.lottiefiles.com/packages/lf20_cuKhxGQKFB.json"
 
 #-----------Header Section----------------------
 
