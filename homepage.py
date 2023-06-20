@@ -36,16 +36,16 @@ with st.container():
 		st.write("The Feature :blue['Band Metric'] has '7' SubFeatures, each provides an integrated snapshot of all spectrum bands for the selected CY\
 			      for the selected SubFeature- for eg. 'Reserve Price', 'Auction Price' etc.")
 		st.write("The Feature :blue['Operator Metric'], has '2' SubFeatures - 1)Total Outflow; 2)Total Purchase")
-		st.write("Both these SubFeatures can be furthred filtered by the Bands or by the Calender Years.")
+		st.write("Both these SubFeatures can be furthered  filtered by the Bands or by the Calender Years.")
 		st.write("---")
 		st.write("The Dimension :violet['Business Data'] as of date has '7' Features - These relate to various dimensions of the telecom business.\
-			Such as 5GBTS Trends, Susbcribers Trends, Revenue Trends etc. I will keep expanding these features further on an ongoing basis \
+			Such as 5GBTS Trends, Subscribers Trends, Revenue Trends etc. I will keep expanding these features further on an ongoing basis \
 			as and when possible.")
 		st.write("---")
-		st.write("Finally, the dimension :orange['Auction Data'] is the aggregration of the simulation of all spectrum auctions that\
+		st.write("Finally, the dimension :orange['Auction Data'] is the aggregation of the simulation of all spectrum auctions that\
 			has taken place in the past since 2010. This has extensive features for enabling the user to view the auction from all angles\
-			and conclude who has bid where and why and what were the implications on the other bidders")
-		st.write("Currently the app is free but protected by a password. I will share this with those who are interested")
-		st.write("I will be eagerly seeking feedback for improving this app so that it can become more useful for \
-			not only exploring the intrecacies of the telecom industry, but learning from our past experiences")
+			and conclude who has bid where and why and what were the implications on the other bidders.")
+		st.write("Currently the app is free but protected by a password. I will share this with those who are interested.")
+		st.write("I will be eagerly seeking valuable feedback for improving this app further, so that it can become more useful for \
+			not only exploring the intricacies of the telecom industry, but learning from our past experiences.")
 
