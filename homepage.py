@@ -15,6 +15,15 @@ def load_lottieurl(url):
 	return r.json()
 
 
+#Use local CSS
+
+def local_css(file_name):
+	with open(file_name) as f:
+		st.markdown(f"<style>{f.read}</style>")
+
+local_css("style/style.css")
+
+
 #-----------Load Assets-------------------------
 
 lottie_ani1 = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_cuKhxGQKFB.json")
