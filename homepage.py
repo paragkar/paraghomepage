@@ -21,9 +21,9 @@ lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_cu
 
 with st.container():
 
-	left_column, right_column = st.columns(2)
+	title_column, image_column = st.columns(2,1)
 
-	with left_column:
+	with title_column:
 
 		st.title("An Integrated Application For The Telecom Industry")
 		st.subheader("Hi, I am Parag Kar :🙏:")
