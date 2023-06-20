@@ -21,9 +21,5 @@ with st.container():
 	with left_column:
 		st.header("How this app works")
 		st.write("##")
-		st.write(
-			"""
-			The Dim "Spectrum Bands" has 3 Features - 1)Spectrum Map; 2)Expiry Map; 3)Auction Map
-			The "Spectrum Map" has 3 Sub Features - 1)Freq Layout; 2)Operator Holdings; 3) Operator %Share
-
-			""")
+		st.write("The Dim 'Spectrum Bands' has 3 Features - 1)Spectrum Map; 2)Expiry Map; 3)Auction Map")
+		st.write("The Feature 'Spectrum Map' has 3 Sub Features - 1)Freq Layout; 2)Operator Holdings; 3) Operator %Share")
