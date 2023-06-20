@@ -17,7 +17,8 @@ def load_lottieurl(url):
 
 #-----------Load Assets-------------------------
 
-lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_cuKhxGQKFB.json")
+lottie_ani1 = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_cuKhxGQKFB.json")
+lottie_ani2 = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_cVcpBM.json")
 parag_photo = Image.open("parag_kar.jpg")
 
 #-----------Header Section----------------------
@@ -74,6 +75,8 @@ with st.container():
 			not only exploring the intricacies of the telecom industry, but learning from our past experiences.")
 		st.write("I plan to load this app on the home page of my site here -> (https://paragkar.com/)")
 	with right_column:
-		st_lottie(lottie_coding, key='telecomdata')
+		st_lottie(lottie_ani1, key='telecomdata1')
+		st_lottie(lottie_ani2, key='telecomdata2')
+
 
 
