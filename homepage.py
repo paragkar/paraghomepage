@@ -24,7 +24,7 @@ parag_photo = Image.open("parag_kar.jpg")
 
 with st.container():
 
-	title_column, image_column = st.columns((2,1))
+	title_column, image_column = st.columns((3,1))
 
 	with title_column:
 
