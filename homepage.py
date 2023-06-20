@@ -8,7 +8,7 @@ with st.container():
 
 	st.title("An Integrated Application For The Telecom Industry")
 	st.subheader("Hi, I am Parag Kar :🙏:")
-	st.write("I wrote this app to tell the story about the telecom industry through :blue[Data Visulization]")
+	st.write("I wrote this app to tell the story about the telecom industry through :blue[Visulization] of Data")
 	st.write("The app is structured in four dimensions - 1) :green[Spectrum Bands]; 2) :red[Auction Years]; 3) :violet[Business Data]; 4) :orange[Auction Data]")
 	st.write("Each of these dimensions has features, subfeatures and options, which enables the users to dig deeper into the finner details of the story")
 	st.write("[Link to the App>](https://paragkar-spectrummaps.streamlit.app/)")
