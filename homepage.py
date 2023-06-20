@@ -23,5 +23,5 @@ with st.container():
 		st.write("##")
 		st.write(
 			"""
-
+			The Dimension "Spectrum Bands" has three Features
 			""")
