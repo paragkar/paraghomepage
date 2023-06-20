@@ -23,4 +23,7 @@ with st.container():
 		st.write("The Dim 'Spectrum Bands' has 3 Features - 1)Spectrum Map; 2)Expiry Map; 3)Auction Map")
 		st.write("The Feature 'Spectrum Map' has 3 SubFeatures - 1)Freq Layout; 2)Operator Holdings; 3) Operator %Share.\
 					Each of these are specific for a band, selectable through a drop down menu, and can be filtered down \
-					to the level of specific or a group of operators")
+					to the level of specific or a group of operators.")
+		st.write("Similarly the Feature 'Expiry Map' has 2 SubFeatures - 1)Freq Layout; 2)Yearly Trends;\
+					Also, each of these are specific for a band, selectable through a drop down menu, and can be filtered down \
+					to the level of specific or a group of operators.")
