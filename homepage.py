@@ -64,4 +64,7 @@ with st.container():
 		st.write("I will be eagerly seeking valuable feedback for improving this app further, so that it can become more useful for \
 			not only exploring the intricacies of the telecom industry, but learning from our past experiences.")
 		st.write("I plan to load this app on the home page of my site here -> (https://paragkar.com/)")
+	with right_column:
+		st_lottie(lottie_coding)
+
 
