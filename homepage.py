@@ -13,3 +13,7 @@ with st.container():
 	st.write("Each of these dimensions has features and options, which enables the users to dig deeper into the finner details of the story")
 	st.write("[Link to the App>](https://paragkar-spectrummaps.streamlit.app/)")
 
+#----What the app does ------
+
+with st.container():
+	st.write("---")
