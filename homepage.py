@@ -90,7 +90,9 @@ with st.container():
      <input type="email" name="email" placeholder = "Your email" required>
      <textarea name = "message" placeholder = "Yoour message here">
      <button type="submit">Send</button>
-	</form>"""
+	</form>
+
+	"""
 
 	left_column, right_column = st.columns(2)
 	with left_column:
