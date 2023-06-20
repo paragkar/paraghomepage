@@ -45,4 +45,7 @@ with st.container():
 		st.write("Finally, the dimension :orange['Auction Data'] is the aggregration of the simulation of all spectrum auctions that\
 			has taken place in the past since 2010. This has extensive features for enabling the user to view the auction from all angles\
 			and conclude who has bid where and why and what were the implications on the other bidders")
+		st.write("Currently the app is free but protected by a password. I will share this with those who are interested")
+		st.write("I will be eagerly seeking feedback for improving this app so that it can become more useful for \
+			not only exploring the intrecacies of the telecom industry, but learning from our past experiences")
 
