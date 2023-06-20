@@ -48,4 +48,5 @@ with st.container():
 		st.write("Currently the app is free but protected by a password. I will share this with those who are interested.")
 		st.write("I will be eagerly seeking valuable feedback for improving this app further, so that it can become more useful for \
 			not only exploring the intricacies of the telecom industry, but learning from our past experiences.")
+		st.write("I plan to load this app on the home page of my site here -> (https://paragkar.com/)")
 
