@@ -38,5 +38,5 @@ with st.container():
 		st.write("The Feature :blue['Operator Metric'], has '2' SubFeatures - 1)Total Outflow; 2)Total Purchase")
 		st.write("Both these SubFeatures can be furthred filtered by the Bands or by the Calender Years.")
 		st.write("---")
-		st.write("The Dimension :violet[Business Data] as of date has '7' Features - These relate to various dimensions of the telecom business")
+		st.write("The Dimension :violet['Business Data'] as of date has '7' Features - These relate to various dimensions of the telecom business")
 
