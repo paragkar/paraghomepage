@@ -105,7 +105,9 @@ with st.container():
 		st.write("I will be eagerly seeking valuable feedback for improving this app further, so that it can become more useful for \
 			not only exploring the intricacies of the telecom industry, but learning from our past experiences.")
 		st.write("I plan to load this app on the home page of my site here -> (https://paragkar.com/)")
-		st.write("This site is configured to work optimally for Desktop, so for best performance limit your to this enviornment")
+		st.write("This site is configured to work optimally for Desktop, so for best performance limit your to this enviornment.\
+			Also, though I have made all the effort to ensure the fedility of data, but chances of inaccuries cannot be ruled out\
+			I plan to correct these based on your valuable feedback. Thanks in advance.")
 		st.write("Finally, allow sometime for the program to boot up with all the data loaded to the memory so that the heatmap charts can get rendered easily")
 	with right_column:
 		st.video(video_bytes)
