@@ -110,9 +110,11 @@ with st.container():
 			I plan to correct these based on your valuable feedback. Thanks in advance.")
 		st.write("Finally, allow sometime for the program to boot up with all the data loaded to the memory so that the heatmap charts can get rendered easily")
 	with right_column:
-		st.subheader("Sample Video1")
+		st.subheader("Sample Peek1")
 		st.video(video_bytes)
+		st.subheader("Sample Peek2")
 		st.video(video_bytes2)
+		st.subheader("Sample Peek3")
 		st.video(video_bytes3)
 
 		# st_lottie(lottie_ani1, key='telecomdata1')
