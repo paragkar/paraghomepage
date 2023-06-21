@@ -30,7 +30,10 @@ lottie_ani1 = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_cuKh
 lottie_ani2 = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_cVcpBM.json")
 parag_photo = Image.open("parag_kar.jpg")
 video_file = open("telecomapp.mp4", "rb")
+video_file2 = open("telecomapp2.mp4", "rb")
 video_bytes = video_file.read()
+video_bytes2 = video_file2.read()
+
 
 #-----------Header Section----------------------
 
@@ -87,6 +90,8 @@ with st.container():
 		st.write("I plan to load this app on the home page of my site here -> (https://paragkar.com/)")
 	with right_column:
 		st.video(video_bytes)
+		st.video(video_bytes2)
+
 		# st_lottie(lottie_ani1, key='telecomdata1')
 		# st_lottie(lottie_ani2, key='telecomdata2')
 
