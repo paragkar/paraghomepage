@@ -8,6 +8,20 @@ from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title = "Telecom Homepage", page_icon=":📡:", layout ='wide')
 
+#--------hide streamlit style and buttons--------------
+
+hide_st_style = '''
+				<style>
+				#MainMenu {visibility : hidden;}
+				footer {visibility : hidder;}
+				header {visibility :hidden;}
+				<style>
+				'''
+st.markdown(hide_st_style, unsafe_allow_html =True)
+
+
+#--------Functions for loading File Starts---------------------
+
 def load_lottieurl(url):
 	r = requests.get(url)
 	if r.status_code !=200:
