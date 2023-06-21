@@ -103,11 +103,11 @@ with st.container():
 	# Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
 	contact_form = """
 	<form action="https://formsubmit.co/PKAR@OUTLOOK.COM" method="POST">
-	<input type="hidden" name="_captcha" value="false">
-	<input type="text" name="name" placeholder="Your name" required>
-	<input type="email" name="email" placeholder="Your email" required>
-	<textarea name="message" placeholder="Your message here" required></textarea>
-	<button type="submit">Send</button>
+		<input type="hidden" name="_captcha" value="false">
+		<input type="text" name="name" placeholder="Your name" required>
+		<input type="email" name="email" placeholder="Your email" required>
+		<textarea name="message" placeholder="Your message here" required></textarea>
+		<button type="submit">Send</button>
 	</form>
 	"""
 	left_column, right_column = st.columns(2)
