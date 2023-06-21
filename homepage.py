@@ -88,7 +88,7 @@ with st.container():
 	with right_column:
 		st.video(video_bytes)
 		# st_lottie(lottie_ani1, key='telecomdata1')
-		st_lottie(lottie_ani2, key='telecomdata2')
+		# st_lottie(lottie_ani2, key='telecomdata2')
 
 with st.container():
 	st.write("---")
