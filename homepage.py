@@ -45,8 +45,10 @@ lottie_ani2 = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_cVcp
 parag_photo = Image.open("parag_kar.jpg")
 video_file = open("telecomapp.mp4", "rb")
 video_file2 = open("telecomapp2.mp4", "rb")
+video_file3 = open("telecomapp3.mp4", "rb")
 video_bytes = video_file.read()
 video_bytes2 = video_file2.read()
+video_bytes3 = video_file3.read()
 
 
 #-----------Header Section----------------------
@@ -105,6 +107,7 @@ with st.container():
 	with right_column:
 		st.video(video_bytes)
 		st.video(video_bytes2)
+		st.video(video_bytes3)
 
 		# st_lottie(lottie_ani1, key='telecomdata1')
 		# st_lottie(lottie_ani2, key='telecomdata2')
