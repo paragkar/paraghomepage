@@ -104,6 +104,7 @@ with st.container():
 		st.write("I will be eagerly seeking valuable feedback for improving this app further, so that it can become more useful for \
 			not only exploring the intricacies of the telecom industry, but learning from our past experiences.")
 		st.write("I plan to load this app on the home page of my site here -> (https://paragkar.com/)")
+		st.write("This site is configured to work optimally for Desktop, so for best performance limit your to this enviornment")
 	with right_column:
 		st.video(video_bytes)
 		st.video(video_bytes2)
